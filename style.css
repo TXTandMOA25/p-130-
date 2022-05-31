@@ -1,0 +1,96 @@
+.heading{
+    font-size: 30px;
+    width: 100%;
+    margin: 0px;
+    background-color: darkblue;
+    color: rgb(185, 232, 255);
+    font-weight: bold;
+    border: solid 2px rgb(11, 0, 32);
+    
+}
+
+.note{
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+}
+
+body{
+    background-size: cover;
+}
+
+#song{
+    background-color: white;
+    color: darkblue;
+    width: 250px;
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 7px;
+    text-align: center;
+    border: solid 2px rgb(11, 0, 32);
+
+}
+.play_button{
+    width: 130px;
+    font-size: 25px;
+    background-color: rgb(0, 162, 255);
+    color: rgb(11, 0, 32);
+    padding: 5px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 7px;
+    text-align: center;
+    border: solid 2px rgb(255, 255, 255);
+}
+
+canvas{
+    border: 5px solid rgb(11, 0, 32);
+    border-radius: 20px;
+    color: rgb(192, 186, 255);
+}
+
+#jungl{
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-left: 20px;
+    padding: 5px;
+    border: solid white 2px;
+}
+
+#seizure{
+    width: 250px;
+    height: 250px;
+    float: right;
+    margin-right: 20px;
+    padding: 5px;
+    border: solid white 2px;
+}
+
+#extra{
+    position: fixed;
+    color: rgb(185, 232, 255);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height:  80px;
+    text-align: center;
+    background-color: darkblue;
+    border: solid 2px rgb(11, 0, 32);
+    font-size: large;
+    margin-left: 0px;
+}
+
+#rc{
+    position: fixed;
+    bottom: 0;
+    width: 80px;
+    height: 80px; 
+}
